@@ -4,6 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    color: rgb(144, 117, 180);
+.head-bar {
+    padding-left: 50%;
 }
