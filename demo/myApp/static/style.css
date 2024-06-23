@@ -6,7 +6,9 @@
 }
 
 .head-bar {
-    margin: 15px;
+    color: aliceblue;
+    height: 50px;
+    background-color: rgba(228, 15, 15, 0.954);
     display: flex;
     justify-content: center;
     align-items: center;
