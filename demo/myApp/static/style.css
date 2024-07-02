@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 .head-bar {
     color: aliceblue;
     height: 70px;
@@ -21,11 +25,17 @@
 
 }
 
+.head-bar a{
+    text-decoration: none;
+    color: aliceblue
+}
+
 .h1 {
    padding: 3px;
    letter-spacing: 2px; 
 }
 
-body {
-    margin-top: 60px;
+.main-page p{
+    margin-top: 75px;
+    font-size: 1.6rem;
 }
