@@ -4,14 +4,13 @@
     {% include "partials/header.html" %}
 
     <div class="main-page">
-        <div class="search-container">
-            <div class="container">
-                <form action="" class="search-form">
-                    <input type="search" class="search-input" name="search">
-                    <button type="submit" class="search-button"> <i class="fas fa-search"></i></button>
-                </form>
+        {% include "partials/search.html" %}
+        <main class="main-content-container">
+            <div class="main-content container">
+                <div class="temp">
+                </div>
             </div>
-        </div>
+        </main>
     </div>
 </body>
 
