@@ -66,12 +66,53 @@
         }
 
         .main-page {
-            margin-top: 75px;
+            margin-top: 94px;
             font-size: 1.6rem;
+            padding-left: 10px;
+            padding-right: 10px;
         }
 
         body {
             background-color: rgba(181, 177, 177, 0.395);
+        }
+
+        .search-form {
+            border: .2rem solid black;
+            max-width: 64rem;
+            margin: 0 auto;
+            border-radius: 10px;
+            position: relative;
+            transition: all 230ms ease-in-out;
+        }
+
+        .search-button,
+        .search-input {
+            border: none;
+            background: none;
+            outline: none;
+            padding: 1rem;
+        }
+
+        .search-input {
+            width: 100%;
+            padding-right: 2rem;
+
+        }
+
+        .search-button {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .search-form:focus-within {
+            border: .2rem solid gray;
+            background-color: aliceblue;
+        }
+
+        .search-form:focus-within .search-button {
+            color: gray;
+            background-color: aliceblue;
         }
     </style>
 
