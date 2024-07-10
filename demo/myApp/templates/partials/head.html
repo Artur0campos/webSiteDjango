@@ -130,11 +130,20 @@
         .workouts-list-item img {
             max-width: 100%;
 
+
+
         }
 
         .workouts-list-item {
             max-width: 64rem;
-            background: var(red);
+            background-color: white;
+            box-shadow: -5px 5px 10px rgba(0, 0, 0, .5);
+            transform: scale(1);
+            transition: all 250ms ease-in-out;
+        }
+
+        .workouts-list-item:hover {
+            transform: scale(1.015);
         }
     </style>
 
